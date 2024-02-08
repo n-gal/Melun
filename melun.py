@@ -27,6 +27,7 @@ for i in range(1):
             generated_sentence = text_model.make_sentence()
             if generated_sentence != None:
                 file.write(generated_sentence)
-                print(f"File '{file_name + str(i)+ file_extension}' created in the directory '{directory_path}'.")
+                print(generated_sentence)
+        print(f"File '{file_name + str(i)+ file_extension}' created in the directory '{directory_path}'.")
 
 
